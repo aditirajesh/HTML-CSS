@@ -1,0 +1,161 @@
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffaf0;
+    color: #333333;
+}
+
+
+header {
+    background-color: #ff595e;
+    color: #ffffff;
+    padding: 30px 20px;
+    text-align: center;
+    font-family: 'Silkscreen', 'sans-serif';
+    border-bottom: 5px solid #1982c4;
+
+
+}
+
+header h1 {
+    font-size: 70px;
+    color: black;
+}
+
+
+header h1 span {
+    color: #ffe66d;
+}
+
+section.intro {
+    padding: 20px;
+    background-color: #d0f4f7;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+main {
+    padding: 30px 50px;
+    background-color: #f0fff4;
+}
+
+main h2 {
+    color: #e63946;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.2rem;
+}
+
+.origin {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: 20px;
+    background-color: #fdfcdc;
+    border: 2px dashed #ffcc00;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #1982c4;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.8rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav {
+    background-color: #ffcc00; /* Super Mario yellow */
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+nav a {
+    text-decoration: none;
+    color: #d62828; /* Mario red */
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 20px;
+    transition: all 0.3s ease;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+  
+nav a:hover {
+    background-color: #d62828;
+    color: white;
+}
+  
+
+@media (orientation:portrait) , (max-width:500px) {
+    header {
+        background-color: #ff595e;
+        color: red;
+        padding: 10px 10px;
+        border-bottom: 2px solid #1982c4;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    section.intro {
+        padding: 10px;
+        font-size: 0.8rem;
+    }
+
+    main {
+        padding: 15px 15px;
+    }
+
+    main h2 {
+        font-size: 0.9rem;
+    }
+
+    .origin {
+        font-size: 0.6rem;
+        line-height: 1.0;
+        margin-top: 10px;
+        padding: 10px;
+        border-radius: 5px;
+        color:green;
+    }
+
+    footer {
+        text-align: center;
+        padding: 10px;
+        font-size: 0.5rem;
+    }
+    
+    nav {
+        padding: 10px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+      }
+      
+    nav a {
+        font-weight: bold;
+        font-size: 1px;
+        margin: 0 15px;
+        transition: all 0.3s ease;
+        padding: 10px 10px;
+        border-radius: 5px;
+    }
+      
+
+
+
+
+
+
+
+
+}

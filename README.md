@@ -35,4 +35,4 @@ As you can see, the font size is adjusted and the body text also turns to green.
 ![Screenshot](character_cards.png)
 
 **Hover effect:**
-![Screenshot](Hover_effect.png)
+![Screenshot](hover_effect.png)

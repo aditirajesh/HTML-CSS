@@ -10,5 +10,5 @@
     - created a second webpage <characters.html> and added navigation links to the main page. Decorated the page with <style2.css> 
     - defined media query in <style1.css> to account for portrait mode in phones.
 
-    Main page:
-    ![Screenshot](localhost_8080_mainpage1.html.png)
+ Main page:
+![Screenshot](localhost_8080_mainpage1.html.png)

@@ -19,5 +19,5 @@
 
 ### Displaying media query:
 
-![Screenshot](task1_mobilelayout.pngg)
+![Screenshot](task1_mobilelayout.png)
 As you can see, the font size is adjusted and the body text also turns to green.

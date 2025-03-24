@@ -10,8 +10,8 @@
 
 ### Grid layout:
 
-![Screenshot](task3_output/task3_grid.html.png)
+![Screenshot](task3_grid.html.png)
 
 ### Stacking items in smaller screens:
 
-![Screenshot](task3_output/task3_stacking.png)
+![Screenshot](task3_stacking.png)

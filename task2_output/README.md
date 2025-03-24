@@ -10,8 +10,8 @@
 
 ### Character card:
 
-![Screenshot](task2_output/task2_cards.png)
+![Screenshot](task2_cards.png)
 
 ### Hover effect:
 
-![Screenshot](task2_output/task2_hovereffect.png)
+![Screenshot](task2_hovereffect.png)

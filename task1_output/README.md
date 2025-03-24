@@ -1,4 +1,4 @@
-# ** TASK 1: Static Webpage Layout**
+# TASK 1: Static Webpage Layout
 
     -  Create a single-page website using semantic HTML elements such as `<header>`, `<nav>`, `<main>`, and `<footer>`.
 
@@ -11,13 +11,13 @@
 
 ### Main page:
 
-![Screenshot](ask1_output/task1_mainpage.png)
+![Screenshot](task1_mainpage.png)
 
 ### Second page:
 
-![Screenshot](task1_output/task1_characterpage.png)
+![Screenshot](task1_characterpage.png)
 
 ### Displaying media query:
 
-![Screenshot](task1_output/task1_mobilelayout.pngg)
+![Screenshot](task1_mobilelayout.pngg)
 As you can see, the font size is adjusted and the body text also turns to green.

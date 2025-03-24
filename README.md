@@ -18,5 +18,5 @@
 ![Screenshot](localhost_8080_characters.html.png)
 
 **Displaying media query:**
-![Screenshot](localhost_8080_mainpage1.html(iPhone 12 Pro).png)
+![Screenshot](mainpage_smallerlayout.png)
 As you can see, the font size is adjusted and the body text also turns to green.

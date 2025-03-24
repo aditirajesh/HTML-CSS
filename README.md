@@ -1,5 +1,7 @@
 # Creating and Styling Web Pages using HTML and CSS
 
+The solutions for each of the tasks are under their respective folders - each have a readme file along with screenshots.
+
 ## 1. **Static Webpage Layout**
 
 - **Objective:** Create a single-page website using semantic HTML elements such as `<header>`, `<nav>`, `<main>`, and `<footer>`.

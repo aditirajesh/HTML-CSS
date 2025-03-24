@@ -1,4 +1,9 @@
 
+img {
+    width:225px;
+    height:225px;
+    border-color: black;
+}
 
 body {
     font-family: 'Arial', sans-serif;

@@ -20,3 +20,19 @@
 **Displaying media query:**
 ![Screenshot](mainpage_smallerlayout.png)
 As you can see, the font size is adjusted and the body text also turns to green.
+
+## Task 2: CSS Card Component with Hover Effects
+
+    - Build a card that includes an image, a title, and a description.
+
+**Soln:**
+
+    - created a div container - <div character_card>, included image along with a description
+    - added styling to the cards to include colors, shadows and hover effects.
+    - when hovering over the image, the image expands
+
+**Character card:**
+![Screenshot](character_cards.png)
+
+**Hover effect:**
+![Screenshot](Hover_effect.png)

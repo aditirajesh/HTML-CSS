@@ -2,9 +2,9 @@
 <html>
 
     <head>
-        <meta charset="utf-8">
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
         <title>World of Super Mario</title>
-        <link href="style1.css" rel="stylesheet">
+        <link href="stylesheet1.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
@@ -15,10 +15,16 @@
             <h1>🍄Welcome to the world of <span>Super Mario!🎮 </span></h1>
         </header>
 
-        <nav>
-            <a href="mainpage1.html">🏠 Main Page</a>
-            <a href="characters.html">🎮 Characters</a>
-        </nav>
+        <div class="navbar">
+            <a href="mainpage1.html">Home</a>
+            <div class="dropdown">
+              <a href="#" class="dropbtn">Explore ▾</a>
+              <div class="dropdown-content">
+                <a href="characters.html">Characters</a>
+                <a href="marioworlds.html">Worlds</a>
+              </div>
+            </div>
+        </div>
 
         <section class="intro">
             <h2>🎉A nostalgic trip through time celebrating the adventures of Mario, Luigi, Princess Peach, Bowser, and more.</h2>

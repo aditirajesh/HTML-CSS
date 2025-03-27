@@ -12,4 +12,7 @@
 
 ## Tabs:
 
-[text](task6_tabs.mov)
+
+https://github.com/user-attachments/assets/89293741-d234-4b54-95ab-04ee46c80c08
+
+

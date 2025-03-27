@@ -11,3 +11,8 @@
 - added images to be a part of the carousel along with options.
 
 ## Slider:
+
+
+
+https://github.com/user-attachments/assets/4898dcd8-a044-4a73-9af2-cfed13f3d9a5
+

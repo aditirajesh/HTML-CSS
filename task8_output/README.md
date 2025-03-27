@@ -13,3 +13,7 @@
 - transition added to the height and padding of each list item
 
 ## Accordion:
+
+
+https://github.com/user-attachments/assets/ea99fba2-36f9-49e7-ac4f-d89d2c4e6ae3
+

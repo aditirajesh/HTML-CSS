@@ -14,6 +14,36 @@ header h1 {
     font-size: 70px;
 }
 
+.subheading {
+    font-family: 'Press Start 2P', cursive;
+    color:#083649;
+    padding: 0px 35px;
+    text-decoration: solid;
+    font-size:30px;
+}
+
+main {
+    display:grid;
+    grid-template-columns: 30% 55% 15%;
+}
+
+main h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size:50px;
+    color:#083649;
+    padding: 0px 130px;
+    text-decoration: underline;
+}
+
+.worlds_img h2 {
+    padding: 0px 400px;
+}
+
+.worlds_img {
+    display:flex;
+    flex-direction: column;
+}
+
 .container {
     padding: 1rem;
     background-color:hsl(9, 82%, 47%);
@@ -21,6 +51,21 @@ header h1 {
     border-radius: 10px;
     margin-right:100px;
     margin-left:100px;
+    margin-top: 60px;
+    width: 100%;
+    position: relative;
+    height: 425px;
+
+}
+
+.container h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size:50px;
+    color:#083649;
+    padding: 0px 130px;
+    text-decoration: underline;
+
+
 }
 
 .slider-wrapper {
@@ -85,9 +130,23 @@ header h1 {
     opacity: 1;
 }
 
+.my-gif-box {
+    width: 100%;
+    height: 500px;
+    background-image: url("mario_jumping.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left:110px;
+    padding:20px;
+    margin-top: 50px;
+    border-radius: 10px;
+  }
+
 .accordion {
     margin: 60px auto;
-    width: 600px;
+    width: 100%;
+    margin-right: 20px;
 }
 .accordion_radio {
     display:none;
@@ -97,7 +156,6 @@ li {
     background-color:#FFE66D;
     border: 3px solid #F39C12;
     border-radius: 8px;
-    margin-top:10px;
     margin-bottom: 10px;
     padding: 10px 20px;
     list-style: none;
@@ -145,4 +203,110 @@ li {
 
 .accordion_radio:checked+.accordion_label::before {
     content: '-';
+}
+
+.sprite {
+    position: absolute;
+    width: 60px;
+    height: auto;
+    z-index: 2;
+    animation: floaty 3s ease-in-out infinite;
+}
+
+.navbar {
+    background-color: #ffcc00;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    border-bottom: 4px solid #e74c3c;
+    position: sticky;
+    top:0;
+
+}
+
+.navbar a {
+    font-size: 16px;
+    background-color: #e74c3c;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    margin-right: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #c0392b;
+}
+
+  /* Dropdown Container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+  /* Dropdown Button (Span, not Link) */
+.dropbtn {
+    font-size: 16px;
+    background-color: #e74c3c;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dropbtn:hover {
+    background-color: #c0392b;
+}
+
+  /* Dropdown Content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 999;
+    border-radius: 5px;
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.dropdown-content a:hover {
+    background-color: #f2f2f2;
+}
+
+  /* Hover behavior fix */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+@keyframes floaty {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+.sprite.shell {
+    bottom: 20px;
+    right: 30px;
+}
+
+
+@media (max-width: 768px) {
+    .sprite {
+      display: none;
+    }
 }

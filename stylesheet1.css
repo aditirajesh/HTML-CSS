@@ -53,6 +53,8 @@ main h2 {
     color: #e63946;
     font-family: 'Press Start 2P', cursive;
     font-size: 1.6rem;
+    display:flex;
+    flex-direction: row;
 }
 
 .origin {
@@ -88,7 +90,9 @@ footer {
     align-items: center;
     padding: 0 10px;
     border-bottom: 4px solid #e74c3c;
-    position: relative;
+    position: sticky;
+    top:0;
+
 }
 
 .navbar a {

@@ -11,4 +11,4 @@
 
 ### Modal dialogue box:
 
-[!Screenshot](task5_modal.png)
+![Screenshot](task5_modal.png)

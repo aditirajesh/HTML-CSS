@@ -52,7 +52,7 @@ main {
 main h2 {
     color: #e63946;
     font-family: 'Press Start 2P', cursive;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
 }
 
 .origin {
@@ -63,6 +63,14 @@ main h2 {
     border: 2px dashed #ffcc00;
     padding: 20px;
     border-radius: 10px;
+}
+
+section.tabbed-content{
+    background: linear-gradient(to bottom right, #B6E388, #D0F4F7);
+    padding: 20px;
+    border: 2px dashed #2a4312;
+    border-radius: 10px;
+    line-height:1.6;
 }
 
 footer {
@@ -205,9 +213,68 @@ label.close-modal {
     cursor: pointer;
 }
 
+
 @keyframes popup {
     from { transform: scale(0.8); opacity: 0; }
     to { transform: scale(1); opacity: 1; }
+}
+
+.tabs {
+    display:flex;
+    flex-wrap:wrap;
+    max-width:100%
+}
+
+.tabs_radio{
+    display:none
+}
+
+.tabs_label{
+    cursor:pointer;
+    padding:10px 20px;
+    margin-top:10px;
+    margin-right: 10px;
+    font-size:15px;
+    font-family:'Silkscreen','sans-serif';
+    margin-left:10px;
+    border-radius: 2px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+
+
+.tabs_content {
+    order:1;
+    width:100%;
+    display:none;
+}
+
+.tabs_radio:checked+.tabs_label{
+    background-color: #c0392b;
+    color:rgb(224, 224, 49);
+    border-bottom: 2px solid rgb(224, 224, 49);
+}
+
+.tabs_radio:checked+.tabs_label+.tabs_content{
+    display:initial;
+}
+
+.tabs_radio:checked+.tabs_label+.tabs_content p {
+    background-color:white;
+    color:#2B2B2B;
+    border-radius: 50px 80px 50px 80px;
+    border: 10px solid #87CEEB;
+    margin: 20px;
+    padding:20px;
+    
+}
+
+.tabs_radio:checked+.tabs_label+.tabs_content h3{
+    color:rgb(186, 27, 27);
+    font-family: 'Press Start 2P', cursive;
+    font-style: bold;
+    text-align:center;
 }
 
 @media (orientation:portrait) , (max-width:500px) {

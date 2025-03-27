@@ -84,3 +84,65 @@ header h1 {
 .slider-nav a:hover {
     opacity: 1;
 }
+
+.accordion {
+    margin: 60px auto;
+    width: 600px;
+}
+.accordion_radio {
+    display:none;
+}
+
+li {
+    background-color:#FFE66D;
+    border: 3px solid #F39C12;
+    border-radius: 8px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    list-style: none;
+    width:100%;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                -6px -6px 10px -1px rgba(255, 255, 255, 0.7)
+
+}
+
+.accordion_label {
+    display:flex;
+    padding: 10px 20px;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size: 20px;
+    cursor:pointer;
+    color: #E74C3C;
+    font-family: 'Silkscreen', 'sans-serif';
+    font-weight:500;
+    align-items: center;
+}
+
+.accordion_content {
+    color:#2B2B2B;
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    font-size: 20px;;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.accordion_label::before {
+    content: '+';
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.accordion_radio:checked+.accordion_label+.accordion_content {
+    max-height: 300px;
+    padding: 10px 10px 20px;
+
+}
+
+.accordion_radio:checked+.accordion_label::before {
+    content: '-';
+}

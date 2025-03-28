@@ -2,6 +2,20 @@
 
 The solutions for each of the tasks are under their respective folders - each have a readme file along with screenshots.
 
+## FULL WEBSITE:
+
+### Main Page:
+
+![](task10_output/mainpage.png)
+
+### Second Page:
+
+![](task10_output/characters_page.png)
+
+### Third Page:
+
+![](task10_output/marioworld_page.png)
+
 ## 1. **Static Webpage Layout**
 
 - **Objective:** Create a single-page website using semantic HTML elements such as `<header>`, `<nav>`, `<main>`, and `<footer>`.

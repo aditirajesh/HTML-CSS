@@ -17,7 +17,7 @@ body {
     font-weight:200;
     background-color: #e38cf0;
     text-align: center;
-    background-image: url('pink_background.jpg'); /* Replace with correct path */
+    background-image: url('/Users/aditirajesh/Desktop/program_files/Presidio/HTML_CSS/Images/pink_background.jpg'); /* Replace with correct path */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;

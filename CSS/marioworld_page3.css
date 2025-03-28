@@ -1,6 +1,6 @@
 body {
     background:#87CEEB;
-    background-image: url('mainpage_bg.jpg'); /* Replace with correct path */
+    background-image: url('/Users/aditirajesh/Desktop/program_files/Presidio/HTML_CSS/Images/marioworld_bg.jpg'); /* Replace with correct path */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -13,6 +13,7 @@ header {
     font-family:'Silkscreen','sans-serif';
     text-align: center;
     border-bottom: 5px solid rgb(204, 61, 61);
+    width:100%;
 }
 
 header h1 {
@@ -52,24 +53,12 @@ main {
     background-color:hsl(9, 82%, 47%);
     border: 2px solid #F4D35E;
     border-radius: 10px;
-    margin-right:100px;
-    margin-left:100px;
-    margin-top: 60px;
     width: 100%;
     position: relative;
     height: 425px;
 
 }
 
-.container h2 {
-    font-family: 'Press Start 2P', cursive;
-    font-size:50px;
-    color:#083649;
-    padding: 0px 130px;
-    text-decoration: underline;
-
-
-}
 
 .slider-wrapper {
     position:relative;
@@ -136,7 +125,7 @@ main {
 .my-gif-box {
     width: 100%;
     height: 500px;
-    background-image: url("mario_jumping.gif");
+    background-image: url("/Users/aditirajesh/Desktop/program_files/Presidio/HTML_CSS/Images/mario_jumping.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -324,4 +313,100 @@ footer {
     .sprite {
       display: none;
     }
+
+    main {
+        display:block;
+    }
+
+    header h1 {
+        font-size: 50px;
+    }
+
+    .subheading {
+        padding: 0px 35px;
+        text-decoration: solid;
+        font-size:15px;
+        background-color:#5c9fbb ;
+        border-radius:10px;
+        box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    }
+    
+    .container {
+        height: 650px;
+        margin-right:10px;
+        margin-left:10px;
+        margin-top: 60px;
+    
+    }
+
+    .slider{
+        aspect-ratio: 9/16;
+    }
+
+    .caption {
+        font-size: 23px;
+    }
+
+    .my-gif-box {
+        display:none;
+    }
+
+    .accordion {
+        margin: 10px auto;
+        width: 100%;
+        margin-right: 30px;
+    }
+
+    li {
+        width:80%;
+    
+    }
+
+    footer {
+        width:100%;
+        margin-top:20px;
+    }
+
+    .accordion_content {
+        line-height: 26px;
+        max-height: 0;
+        font-size: 15px;;
+    }
+
+    .navbar {
+        background-color: #f6ce5e; /* Softer golden-yellow */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 5px;
+        border-bottom: 4px solid #e67e22;
+        position: fixed;
+        top: 5;
+        left:0;
+        right:0;
+        gap: 10px;
+        width:39%;
+        margin-left: 57%;
+    }
+
+    .navbar a,
+    .dropbtn {
+        font-size: 10px;
+        min-width: 10px;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        min-width: 10px;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+
+
 }

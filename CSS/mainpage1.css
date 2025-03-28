@@ -16,7 +16,7 @@ body {
 
 
 header {
-    background-image:url('brick_background.avif');
+    background-image:url('/Users/aditirajesh/Desktop/program_files/Presidio/HTML_CSS/Images/brick_background.avif');
     background-color: #aa432d;
     color: #ffffff;
     padding: 10px 20px;
@@ -48,7 +48,7 @@ header h1 span {
 main {
     padding: 30px 50px;
     background-color: #f0fff4;
-    background-image: url('mainpage1.jpg');
+    background-image: url('/Users/aditirajesh/Desktop/program_files/Presidio/HTML_CSS/Images/mainpage1.jpg');
 }
 
 main h2 {
@@ -306,37 +306,22 @@ label.close-modal {
 }
 
 @media (orientation:portrait) , (max-width:500px) {
-    header {
-        background-color: #ff595e;
-        color: red;
-        padding: 10px 10px;
-        border-bottom: 2px solid #1982c4;
-    }
 
     header h1 {
         font-size: 40px;
+        margin-left:0;
+        margin-top:20%;
     }
 
-    section.intro {
-        padding: 10px;
-        font-size: 0.8rem;
+    header h1 span {
+        font-size:40px;
+        text-align:left;
+        margin-top:0;
+        
     }
 
-    main {
-        padding: 15px 15px;
-    }
-
-    main h2 {
-        font-size: 0.9rem;
-    }
-
-    .origin {
-        font-size: 0.6rem;
-        line-height: 1.0;
-        margin-top: 10px;
-        padding: 10px;
-        border-radius: 5px;
-        color:green;
+    body {
+        font-size:12px;
     }
 
     footer {
@@ -344,8 +329,46 @@ label.close-modal {
         padding: 10px;
         font-size: 0.5rem;
     }
-    
-      
 
+    .navbar {
+        width: 100%;
+        justify-content: space-around;
+        padding: 10px;
+        border-radius: 0;
+        margin: 0;
+    }
 
+    .tabs_label {
+        font-size: 20px;
+        padding: 8px 14px;
+    }
+
+    .tabs_radio:checked+.tabs_label+.tabs_content p {
+        font-size: 16px;
+        padding: 12px;
+        margin: 10px;
+    }
+
+    main h2,
+    .originheading {
+        font-size: 24px !important;
+        margin-right: 0;
+    }
+
+    .origin {
+        flex-direction: column;
+        font-size: 16px;
+    }
+
+    .origin img {
+        display: none;
+    }
+
+    .tabs_content h3 {
+        font-size: 18px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
 }

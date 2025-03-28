@@ -12,4 +12,14 @@
 
 ## Multi-Page Website Simulator:
 
-![Screenshot](task10_output/website.gif)
+### Main page:
+
+![Screenshot](mainpage.png)
+
+### Second page:
+
+![Screenshot](characters_page.png)
+
+### Third page:
+
+![Screenshot](marioworld_page.png)

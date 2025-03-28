@@ -12,4 +12,4 @@
 
 ## Multi-Page Website Simulator:
 
-![Gif](task10_output/website.gif)
+![Screenshot](task10_output/website.gif)

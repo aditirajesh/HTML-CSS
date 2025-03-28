@@ -45,6 +45,7 @@ header h1 span {
 }
 
 
+
 main {
     padding: 30px 50px;
     background-color: #f0fff4;
@@ -197,6 +198,7 @@ label.open-modal {
     background-color: #3498db;
     color: white;
     padding: 12px 20px;
+    font-size:25px;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
@@ -229,7 +231,18 @@ label.open-modal {
     border-radius: 10px;
     width: 300px;
     text-align: center;
+    justify-content: center;
     animation: popup 0.4s ease;
+}
+
+.modal h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    color:#c0392b;
+    display:flex;
+    flex-direction: row;
+    background-color: white;
+
 }
 
 label.close-modal {

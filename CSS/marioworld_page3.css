@@ -36,6 +36,7 @@ header h1 {
 main {
     display:grid;
     grid-template-columns: 30% 55% 15%;
+    gap:50px;
 }
 
 
@@ -56,6 +57,7 @@ main {
     width: 100%;
     position: relative;
     height: 425px;
+    margin-top:7%;
 
 }
 
@@ -129,7 +131,7 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    margin-left:110px;
+    margin-left:0;
     padding:20px;
     margin-top: 50px;
     border-radius: 10px;
@@ -137,7 +139,7 @@ main {
 
 .accordion {
     margin: 60px auto;
-    width: 100%;
+    width: 85%;
     margin-right: 20px;
 }
 .accordion_radio {

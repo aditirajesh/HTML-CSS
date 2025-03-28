@@ -11,15 +11,11 @@
 - added overlays using z-index (mario icon floating on top of the slideshow)
 - made the navigation bar sticky using position:sticky
 
-## Grid + flex alignment
-
-![Screenshot](task9_layout.png)
-
 ## Overlay
 
 ![Screenshot](task9_overlay.png)
 
-## Sticky Navigation Bar:
+## Sticky Navigation Bar + Grid and flex alignment 
 
 
 https://github.com/user-attachments/assets/071750a7-3180-484c-b929-80611fdec67d
